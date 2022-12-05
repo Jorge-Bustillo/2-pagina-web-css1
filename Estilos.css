@@ -1,6 +1,13 @@
-body {
+body,
+h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 200%;
-  background-image: url("IMG/imagen\ de\ la\ pagina\ principal.jpg")
+  position: relative;
+}
+
+img {
+  width: 107%;
+  height: 100%;
+  margin: -12%;
 }
