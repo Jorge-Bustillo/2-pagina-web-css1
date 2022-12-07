@@ -1,5 +1,5 @@
-body {
-    background-image: url("IMG/imagen\ del\ 2\ html\ página\ 2.jpg")
+body{
+    background-image: url("IMG/imagen\ del\ 2\ html\ página\ 2.jpg");
 }
  
 footer,
@@ -10,4 +10,9 @@ img {
     padding: 0%;
     float: left;
     width: 40%;
+}
+
+p{
+    text-align: right;
+    color:cyan;
 }
