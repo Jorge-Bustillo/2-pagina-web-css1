@@ -1,7 +1,7 @@
-body{
+body {
     background-image: url("IMG/imagen\ del\ 2\ html\ página\ 2.jpg");
 }
- 
+
 footer,
 .container,
 img {
@@ -12,7 +12,8 @@ img {
     width: 40%;
 }
 
-p{
+p::first-letter {
     text-align: right;
-    color:cyan;
+    color: cyan;
+    text-decoration: dashed;
 }
