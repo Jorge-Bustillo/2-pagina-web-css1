@@ -111,3 +111,37 @@ td:empty {
 h2 {
     text-align: left;
 }
+
+
+h1 {
+    color:darkblue;
+    text-align: center;
+}
+
+.paisaje {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    height: 200%;
+    color:#000;
+    justify-content: left;
+    align-items: center;
+}
+
+img {
+    margin: 5%;
+    padding: 0%;
+    float: left;
+    width: 40%;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+@media (min-width:576%) {
+    .paisaje {
+        max-width: 540%;
+        color: gold;
+        flex-direction: column;
+    }
+}
