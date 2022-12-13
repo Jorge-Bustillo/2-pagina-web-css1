@@ -146,3 +146,24 @@ img {
         flex-direction: column;
     }
 }
+
+div p{
+    background-color: gray;
+}
+
+.link-position{
+    position: absolute;
+    top: 190%;
+}
+#padding-div{
+    padding-left: 50%;
+}
+
+#Position-Apertura{
+    padding-left: 45%;
+    padding-right: 45%;
+}
+
+p{
+    text-decoration: none;
+}
